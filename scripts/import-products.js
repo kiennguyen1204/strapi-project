@@ -2,7 +2,7 @@ const axios = require("axios");
 const products = require("../products.json");
 const STRAPI_URL = "https://strapi-project-g2z5.onrender.com/api/products";
 const TOKEN =
-  "c37c1253b3e24ca1fdbc552cefc3ec78e6f67f1a2b541dc4de31f556632d3525437fff756c2500983aef1f62b978cdd7f0dafb3a3fe2d292b9cab768a8d72386043567372d1ba627a1fa30e05d5edf18240676b286f90824765d4229389ae474c50f89bdf87c2708606fe031f5a57724fc5053c787af3d147e6b79360ff36344";
+  "59bbc0c2417f2864aaa44f6c191094c80de60a8ee269ce3cd81a097ab0f7f7668f51ad3ba29799517a1f0db5b373d8dc7ef4457aee7ce8fc42662ca15eaf66021dd59666bf47db094e0a198b716a541c068e6da1edecf7c415389c8cc200a6e585b507fdaa002f7bc6acbeed9b4257e8c9ed1b8c8d1e5a99ce1e1c2c2510dfc8";
 
 const headers = {
   Authorization: `Bearer ${TOKEN}`,
