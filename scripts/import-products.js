@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const products = require("../products.json");
-const STRAPI_URL = "https://strapi-project-g2z5.onrender.com/api/products";
+const STRAPI_URL = "http://localhost:1337/api/products";
 const TOKEN =
   "c37c1253b3e24ca1fdbc552cefc3ec78e6f67f1a2b541dc4de31f556632d3525437fff756c2500983aef1f62b978cdd7f0dafb3a3fe2d292b9cab768a8d72386043567372d1ba627a1fa30e05d5edf18240676b286f90824765d4229389ae474c50f89bdf87c2708606fe031f5a57724fc5053c787af3d147e6b79360ff36344"; // Thay bằng API Token bạn tạo
 
