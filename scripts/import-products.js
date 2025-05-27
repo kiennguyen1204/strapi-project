@@ -3,7 +3,7 @@ const axios = require("axios");
 const products = require("../products.json");
 const STRAPI_URL = "http://localhost:1337/api/products";
 const TOKEN =
-  "c37c1253b3e24ca1fdbc552cefc3ec78e6f67f1a2b541dc4de31f556632d3525437fff756c2500983aef1f62b978cdd7f0dafb3a3fe2d292b9cab768a8d72386043567372d1ba627a1fa30e05d5edf18240676b286f90824765d4229389ae474c50f89bdf87c2708606fe031f5a57724fc5053c787af3d147e6b79360ff36344";
+  "359169f1a4ded69d70e64b7888bbe8c9212a15dea35373417bbf35baa3205dfc487ff38e105d9c124d2c3bd2b5af10773a0d854f8d8d8475c421ab51b7d9c617c60675b71ae27681003e28d5f1bb1755bb5e1af0fa767ba224870ad8ea82f6a4a672cffe38763aa47ac91c9a64fd81f9428370abdbaed079d856d96bc62f788f";
 
 async function createProducts() {
   try {
